@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body { display: flex;}
+
+.section1{
+    display: flex;
+    align-items: center;
+    width: 22%;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    z-index: 100;
+    height: 100vh;
+}
+
+.div1{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img1{
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin-top: 30px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-position: center;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.txtls{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.divmenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu1{
+    margin-bottom: 15px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.menu{
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.txtnew{
+    margin-top: 40%;
+    text-align: center;
+}
+
+.newsletter{
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.form{
+    display: flex;
+}
+
+.email{
+    display: block;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #ece4d5;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+}
+
+.divicone{
+    display: flex;
+}
+
+.icone{
+    border-left: none;
+    border: 1px solid #ece4d5;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.form { display: flex; }
+ 
+.email {
+    display: block;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #ece4d5;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    padding: 0 10px;
+}
+ 
+.icone {
+    border-left: none;
+    border: 1px solid #ece4d5;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+}
+ 
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 78%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 78%;
+}
+
+.section-header {
+    background-color: #ccb78f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+.textpequeno {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+ 
+.textpequeno a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.55);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+ 
+.breadcrumb-current {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.85);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+ 
+.page-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #111;
+    line-height: 1.1;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+ 
+.section-info {
+    background-color: #fff;
+    padding: 60px 60px 40px 60px;
+}
+ 
+.info-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 30px;
+}
+ 
+.info-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+ 
+.info-card {
+    background-color: #f8f9fa;
+    padding: 20px 18px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.7;
+}
+ 
+.info-card span {
+    color: #111;
+    font-weight: 800;
+}
+
+.section-form {
+    background-color: #fff;
+    padding: 20px 60px 80px 60px;
+    display: flex;
+}
+ 
+.form-map-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: #f8f9fa;
+    padding: 50px 40px;
+    align-items: stretch;
+    width: 50%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    flex: 1;
+}
+ 
+.field {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #999;
+    outline: none;
+}
+ 
+.field:focus {
+    border-color: #ccb78f;
+    color: #333;
+}
+ 
+.field-textarea {
+    height: 140px;
+    resize: vertical;
+}
+ 
+.btn-send {
+    align-self: flex-start;
+    background-color: #ccb78f;
+    color: #fff;
+    border: none;
+    padding: 14px 32px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 30px;
+    letter-spacing: 0.5px;
+    margin-top: 6px;
+}
+ 
+.btn-send:hover {
+    background-color: #b89e72;
+}
+
+.map-container {
+    flex: 1;
+    min-height: 430px;
+    background-color: #e5e5e5;
+    overflow: hidden;
+}
+
+.map-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 430px;
+    gap: 12px;
+    padding: 40px;
+    text-align: center;
+}
+
+.map-error-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #888;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.map-error-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.map-error-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    color: #888;
+    max-width: 280px;
+    line-height: 1.6;
+}
+
+
+.footer{
+ 
+    width: 100%;
+    background: #242423;
+    padding: 6em 0;
+ }
+
+ .divfooter{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+ }
+
+ .text1{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-family: "Poppins", Arial, sans-serif;
+ }
+
+ .imgfooter, .imgfooter01 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    margin-bottom: 4px;
+ }
+
+ .imgfooter1, .imgfooter2, .imgfooter3, .imgfooter4, .imgfooter5, .imgfooter6 {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    object-position: center;
+ }
+
+ .div02{
+    margin-left: 5%;
+ }
+
+ .text2{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-bottom: 40px;
+ }
+ 
+ 
+ .text02{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font-family: "Montserrat", Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .div03{
+    margin-left: 10%;
+ }
+ 
+ 
+ .text3{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-bottom: 40px;
+ }
+ 
+ 
+ .iconesfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ 
+ 
+ .icone-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+ }
+ 
+ 
+ .localizacao, .telefone, .e-mail {
+    height: 20px;
+    width: 20px;
+    flex-shrink: 0;
+    margin-top: 2px;
+ }
+
+ .endereço, .celular, .imail {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-family: "Montserrat", Arial, sans-serif;
+ }

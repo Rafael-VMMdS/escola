@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body { display: flex;}
+
+
+
+
+.section1{
+    display: flex;
+    align-items: center;
+    width: 22%;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    height: 100vh;
+}
+
+
+
+
+.div1{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.img1{
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin-top: 30px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-position: center;
+    object-fit: cover;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+.txtls{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+
+
+
+.divmenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.menu1{
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+
+.menu{
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+
+.txtnew{
+    margin-top: 40%;
+    text-align: center;
+}
+
+
+
+
+.newsletter{
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+
+
+
+.form{
+    display: flex;
+}
+
+
+
+
+.email{
+    display: block;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #ece4d5;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+}
+
+
+
+
+.divicone{
+    display: flex;
+}
+
+
+
+
+.icone{
+    border-left: none;
+    border: 1px solid #ece4d5;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+
+.section2{
+    display: flex;
+    width: 78%;
+    flex-wrap: wrap;
+}
+
+
+.divesquerda{
+    width: 50%;
+}
+
+
+.imgprincipal{
+   
+  width: 100%;
+  height: 100vh;
+   
+   
+}
+
+
+.divdireita{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+
+
+
+.textfundo{
+    font-weight: 700;
+    font-size: 70px;
+    font-family: "Poppins", Arial, sans-serif;
+    color: #ededed;
+    z-index: -1;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+
+
+
+.textpequeno{
+    font-size: 24px;
+    color: #bfbfbf;
+    font-weight: 400;
+    font-family: "Montserrat", Arial, sans-serif;
+    position: relative;
+    margin-top: -75px;
+    margin-left: 7%;
+}
+
+
+
+
+.textprincipal{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.5;
+    font-family: "Poppins", Arial, sans-serif;
+    position: relative;
+    margin-top: 1%;
+    margin-left: 7%;
+    margin-bottom: 24px;
+}
+
+
+
+
+.textprincipal .span{
+    color: #ccb78f;
+}
+
+
+
+
+.textgrande{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Montserrat", Arial, sans-serif;
+    color: #999999;
+    margin-bottom: 24px;
+    line-height: 1.5;
+    margin-left: 7%;
+}
+
+
+
+
+.assinatura{
+    font-family: "Herr Von Muellerhoff", cursive;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 40px;
+    margin-left: 7%;
+    margin-bottom: 8px;
+}
+
+
+
+
+.icones{
+    display: flex;
+    gap: 16px;
+    margin-left: 7%;
+}
+
+
+
+
+.section3{
+    padding: 5em 1.8em;
+    position: relative;
+    background-color: white;
+    width: 100%;
+}
+
+
+
+
+.foollow{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+
+
+
+.fotos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+
+.foto1, .foto2, .foto3, .foto4, .foto5 {
+    flex: 1;
+    width: 200px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer{
+ 
+   width: 100%;
+    background: #242423;
+    padding: 6em 0;
+}
+
+
+
+
+.divfooter{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+}
+
+
+
+
+.text1{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+
+
+
+.imgfooter, .imgfooter01 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    margin-bottom: 4px;
+}
+
+
+
+
+.imgfooter1, .imgfooter2, .imgfooter3, .imgfooter4, .imgfooter5, .imgfooter6 {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+.div02{
+    margin-left: 5%;
+}
+
+
+
+
+.text2{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-bottom: 40px;
+}
+
+
+.text02{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font-family: "Montserrat", Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.div03{
+    margin-left: 10%;
+}
+
+
+.text3{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-bottom: 40px;
+}
+
+
+.iconesfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.icone-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+
+.localizacao, .telefone, .e-mail {
+    height: 20px;
+    width: 20px;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+
+.endereço, .celular, .imail {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+
+
